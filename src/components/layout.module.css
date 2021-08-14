@@ -1,0 +1,36 @@
+.container{
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+    /* background: red; */
+}
+
+.heading{
+    color: rebeccapurple;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navLinkItem{
+    padding-right: 2rem;
+}
+
+.navLinkText{
+    color: white;
+    text-decoration: none;
+    background: rebeccapurple;
+    border: 2px solid rebeccapurple;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.navLinkText:hover{
+    background: white;
+    border: 2px solid rebeccapurple;
+    color: rebeccapurple;
+}
