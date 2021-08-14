@@ -1,3 +1,4 @@
+
 .container{
     margin: auto;
     max-width: 500px;
@@ -33,4 +34,12 @@
     background: white;
     border: 2px solid rebeccapurple;
     color: rebeccapurple;
+}
+
+.siteTitle{
+    font-size: 2rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+    /* background: black; */
 }
